@@ -25,14 +25,14 @@
     
     <filter>
         <filter-name>loginFilter</filter-name>
-        <filter-class>com.baoseed.mall.backend.web.filter.LoginFilter</filter-class>
+        <filter-class>com.huiget.mall.backend.web.filter.LoginFilter</filter-class>
     </filter>
     
     <listener>
         <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
     </listener>
     <listener>
-        <listener-class>com.baoseed.mall.backend.web.listener.InitApplicationListener</listener-class>
+        <listener-class>com.huiget.mall.backend.web.listener.InitApplicationListener</listener-class>
     </listener>
     <listener>
         <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
