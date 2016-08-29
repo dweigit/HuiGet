@@ -13,11 +13,11 @@ package com.huiget.mall.common.util.constants;
 public class Constants {
 
     public static final String  APPLICATION_NAME               = "惠购-惠购网-www.huiget.com";
-    public static final String  DOMAIN                         = "http://www.huiget.com";
-    public static final String  STATIC_RESOURCE_DOMAIN         = "http://www.huiget.com";
+    public static final String  DOMAIN                         = "http://localhost:8080";
+    public static final String  STATIC_RESOURCE_DOMAIN         = "http://localhost:8080";
 
-    public static final String  BACKEND_DOMAIN                 = "http://backend.huiget.com";
-    public static final String  BACKEND_STATIC_RESOURCE_DOMAIN = "http://backend.huiget.com";
+    public static final String  BACKEND_DOMAIN                 = "http://localhost:8088";
+    public static final String  BACKEND_STATIC_RESOURCE_DOMAIN = "http://localhost:8088";
 
     public static final String  COOKIE_CONTEXT_ID              = "c_id";
     public static final String  COOKIE_USER_NAME               = "un";

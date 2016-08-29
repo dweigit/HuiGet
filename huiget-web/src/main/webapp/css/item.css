@@ -1,0 +1,356 @@
+.container .items {
+    float: left;
+    clear: both;
+}
+
+.container .items .item {
+    float: left;
+    background: #fff;
+    margin: 10px;
+    width: 290px;
+    position: relative;
+    padding-bottom: 10px;
+    background: #f5f5f5;
+    outline: 1px solid #f0f0f0;
+}
+
+.container .items .item:hover {
+}
+
+.container .items li.first {
+    margin-left: 0;
+}
+
+.container .items li.last {
+    margin-right: 0;
+}
+
+.container .items .item p img {
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 290px;
+    height: 290px;
+}
+
+.container .items .item-title {
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 10px;
+    line-height: 22px;
+    font-size: 13px;
+    height: 44px;
+    font-family: arial, sans-serif;
+}
+
+.container .items .operate {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    border-radius: 2px;
+    display: inline-table;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 13px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.container .items .item:hover .operate {
+    border: 1px solid #f93579;
+    color: #fff;
+    background: #f93579;
+}
+
+.container .items .item-title .active {
+    color: #f93579;
+}
+
+.container .items .item-outstanding {
+    font-size: 26px;
+    color: #333;
+    font-weight: bold;
+}
+
+.container .items .item-through {
+    color: #333;
+    text-decoration: line-through;
+    padding: 0 5px;
+    font-size: 13px;
+}
+
+.container .items .item-data {
+    padding: 0 12px;
+    font-size: 14px;
+}
+
+.container .items .rebate {
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    background: url("/images/icon/rebate.png") no-repeat;
+    top: 258px;
+    right: -3px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 8px;
+}
+
+.container .items .rebate-price {
+    font-size: 22px;
+    color: #f93579;
+    font-weight: bold;
+    padding-right: 3px;
+    vertical-align: bottom;
+    height: 20px;
+    line-height: 20px;
+}
+
+.container .items .rebate-rate {
+    font-size: 12px;
+    color: #fff;
+    background: #f93579;
+    padding: 2px 6px;
+    border-radius: 2px;
+    display: inline-table;
+    vertical-align: bottom;
+    line-height: 16px;
+}
+
+.container .items .item .sep-slash img {
+    width: 12px;
+    height: 15px;
+}
+
+.container .items .icon-platform {
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+}
+
+.container .items .buy-operate {
+    position: absolute;
+    right: 10px;
+    bottom: 18px;
+    background: #f93579;
+    border-radius: 2px;
+    display: inline-table;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 16px;
+    text-align: center;
+    display: none;
+    border: 0;
+    font-size: 14px;
+}
+
+.container .items .buy-operate a {
+    color: #fff;
+}
+
+.container .items .item:hover .buy-operate {
+    display: block;
+}
+
+.container .items .icon-platform img {
+    width: 15px;
+    height: 15px;
+}
+
+.container .items .line-through {
+    text-decoration: line-through;
+}
+
+.container .items p .strong {
+    color: #f93579;
+    padding: 0 5px;
+}
+
+.container .items .item-total-num {
+    float: right;
+    text-align: right;
+    padding-top: 4px;
+    color: #999;
+}
+
+.breadcrumb {
+    list-style: none;
+    padding: 0;
+    outline: 0;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb > li {
+    display: inline-block;
+}
+
+.breadcrumb > li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+
+.detail {
+    margin: 20px auto;
+    background: #fff;
+    height: 480px;
+    position: relative;
+}
+
+.detail .bdsharebuttonbox {
+    position: absolute;
+    bottom: 10px;
+    width: 30%;
+}
+
+.detail .detail-info {
+    width: 690px;
+    height: 480px;
+    float: left;
+    padding-left: 30px;
+}
+
+.detail .detail-info h2 {
+    padding: 14px 0;
+    font-size: 18px;
+    border-bottom: 1px dashed #ccc;
+    font-weight: bold;
+}
+
+.detail .detail-info p {
+    font-size: 14px;
+    color: #333;
+    height: 24px;
+    padding: 10px 0
+}
+
+.detail .detail-info p .discount-price {
+    color: #f93579;
+    font-size: 24px;
+}
+
+.detail .detail-info p .discount {
+    color: #fff;
+    font-size: 14px;
+    background: #f93579;
+    font-family: arial, sans-serif;
+    padding: 0px 14px;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.detail .detail-info p .attr-name {
+    display: inline-block;
+    width: 80px;
+}
+
+.detail .detail-info p .buy-operate {
+    background: #f93579;
+    font-size: 18px;
+    width: 180px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 2px;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.detail .detail-img {
+    float: left;
+    width: 420px;
+}
+
+.detail p img {
+    width: 420px;
+}
+
+.detail .detail-info .tips {
+    width: 100%;
+    color: #666;
+    line-height: 24px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+/* like */
+.like {
+    background: #f9f9f9;
+    border-radius: 15px;
+    cursor: pointer;
+    display: none;
+    height: 26px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 26px;
+    z-index: 15;
+}
+
+.like .like-ico {
+    background-position: 0 0;
+    height: 11px;
+    margin-left: -7px;
+    margin-top: -5px;
+    width: 14px;
+}
+
+.like .active {
+    background-position: 0 -20px;
+}
+
+.like span, .del span {
+    background: url(/images/icon/my-like.png) no-repeat;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+.del {
+    background: #f9f9f9;
+    border-radius: 15px;
+    cursor: pointer;
+    display: none;
+    height: 26px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 26px;
+    z-index: 15;
+}
+
+.del .del-ico {
+    height: 15px;
+    margin-left: -7px;
+    margin-top: -7px;
+    width: 14px;
+    background-position: -26px 0;
+}
+
+.item:hover .like, .item:hover .del {
+    display: block;
+}
+
+.del:hover .del-ico {
+    background-position: -26px -19px;
+}
+
+.new-icon {
+    background: url(/images/icon/new.png) no-repeat 0 0;
+    height: 0;
+    overflow: hidden;
+    padding-top: 37px;
+    width: 37px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}

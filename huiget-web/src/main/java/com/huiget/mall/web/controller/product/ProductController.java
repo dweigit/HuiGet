@@ -59,4 +59,17 @@ public class ProductController {
         return "product/channel";
     }
 
+    @RequestMapping(value = "/item/{channelName}", method = RequestMethod.GET)
+    public String detail(@ModelAttribute("form") ProductForm form) {
+        Map<String, Channel> allChannel = channelService.getAllChannel();
+        form.setAllChannel(allChannel);
+        Channel channel = allChannel.get(form.getChannelName());
+        form.setChannel(channel);
+        if (channel == null) {
+//            return "redirect:/";
+        }
+
+
+        return "product/item";
+    }
 }

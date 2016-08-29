@@ -12,6 +12,13 @@ a:hover, a:focus {
 	margin: 0 0 20px 0;
 }
 
+.page-header h2{
+	border-left: 5px solid #4386fb;
+	padding-left: 10px;
+	color: #333;
+	font-weight: normal;
+}
+
 .header .main-navbar {
 	min-height: 80px;
 	height: 80px;
@@ -75,7 +82,7 @@ a:hover, a:focus {
 
 .prod-items .prod-item:hover {
 	background: #f6f6f6;
-	border: 1px solid #428bca;
+	border: 1px solid #b3b3b3;
 }
 
 .prod-items img {

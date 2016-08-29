@@ -33,6 +33,8 @@
 					</thead>
 				</table>
 				<div class="breadcrumb sub-breadcrumb">
+					<a href="/">综合</a>
+					<a href="/">销量</a>
 					<a href="/" class="active">最新</a>
 					<a href="/">价格 &uarr;</a>
 					#set($pre = $form.pageNumber + (-1))
@@ -48,7 +50,7 @@
 	                #end
 	                <div class="col-lg-3">
 		                <div class="prod-item">
-		                	<p><a href="$!{product.detailLink}" target="blank"><img src="$!{product.prodPic}" alt="$!{product.prodName}" /></a></p>
+		                	<p><a href="/product/item/$!{product.prodName}" target="blank"><img src="$!{product.prodPic}" alt="$!{product.prodName}" /></a></p>
 		                    <p class="prod-name"><a href="$!{product.detailLink}" title="$!{product.prodName}">$!{product.prodName}</a></p>
 		                    <p>
 		                    	市场价：<span class="price">¥ $!{product.priceForShow}</span><br>
